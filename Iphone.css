@@ -1,0 +1,71 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background: azure;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: azure;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: azure;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: azure;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: azure;}
+
+}
+/* For mobile phones */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  body{
+    background-color: azure;
+    font-size: 15px;
+    margin: 0.01px;
+    width: 110%;
+
+  }
+  .grid-container {
+  display: grid;
+  grid-template-columns:  auto auto auto;
+  grid-gap: 4px;
+  background-color: #2196F3;
+  padding: 15px;
+  }
+
+  .grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 10px;
+  }
+
+  .grid-containerj {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    grid-gap: 0px;
+    background-color: #2196F3;
+    padding: 0px;
+  }
+
+  .grid-containerj > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 0px 0;
+    font-size: 5px;
+  }
+}
