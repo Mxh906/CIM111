@@ -1,0 +1,74 @@
+<HTML>
+
+  <body bgcolor="azure">
+
+  <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("p").toggle();
+    });
+  });
+
+  $(document).ready(function(){
+  $("#btn1").click(function(){
+    $("p").append(" <b>How To Cook Milanesas In 7 Different Steps</b>.");
+  });
+
+  $("#btn2").click(function(){
+    $("ol").append("<li><b>Don't forget the Lemon!</b></li>");
+    });
+  });
+
+  $(document).ready(function(){
+    $("button").click(function(){
+    //  alert("Background color = " + $("p").css("background-color"));
+    });
+  });
+
+  </script>
+    <title>
+    </title>
+  <head/>
+<body>
+
+  <header>
+
+    <H1>
+          <p style="background-color:#58D3F7"> <img width="2%" src="images/argentina.png"/> Cooking Argentinian Milanesas <img width="2%" src="images/argentina.png"/> </p>
+    </H1>
+      <button type="button"
+      onclick="document.getElementById('demo').innerHTML = Date()">
+      Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+  </header>
+
+  <main>
+    <H2>
+      <p> Recipe: </p>
+        <button>Hide Additional Information</button>
+    </H2>
+    <OL>
+      <li> Preheat the oven to 350F. </li>
+      <li> Beat the eggs in a shallow dish. </li>
+      <li> Combine the breadcrumbs with the salt, granulated garlic, and dried parsley in another shallow dish, and mix well. </li>
+      <li> Dip a slice of sirloin steak in the beaten eggs, then coat them with the breadcrumb mixture on both sides, patting down with your fingers until the whole surface is well coated. Repeat until you have coated all of the beef. </li>
+      <li> Coat a large baking sheet with vegetable oil, and place it in the preheated oven for five minutes, until the oil is hot. </li>
+      <li> Place the breaded beef fillets on the baking sheet in a single layer, without any overlap. If necessary, cook them in two or three batches. Bake for 20 minutes, flipping once after 15 minutes, until they are golden brown. </li>
+      <li> Serve with fresh lemon slices and a fresh green salad, seasoned with extra virgin olive oil and a hint of balsamic vinegar. </li>
+    </OL>
+        <p>   <img width="25%" src="images/milanesa.jpg"/>
+
+          <button id="btn1">Title</button>
+      <button id="btn2">Click Twice For Important Information</button>
+  </main>
+
+  <footer>
+
+  </footer>
+
+</body>
+
+</HTML>
