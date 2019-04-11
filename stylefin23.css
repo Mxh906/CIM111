@@ -1,0 +1,51 @@
+.grid-container > p {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.grid-containerh {
+display: grid;
+grid-template-columns: auto auto;
+background-color: #c2b280;
+padding: 5px;
+}
+
+.grid-container > text {
+  display: grid;
+  grid-template-columns: auto auto  ;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+i {
+  color: #00CED1;
+  background-color: azure;
+  border: 1px solid black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1cm;
+}
+
+h2 {
+  color: #4682B4;
+  background-color: azure;
+  border: 1px solid black;
+  font-family: "Courier", Times, serif;
+  font-size: .5cm;
+}
+
+h3 {
+  color: #4682B4;
+  background-color: azure;
+  border: 1px solid black;
+  font-family: "Courier", Times, serif;
+  font-size: 1cm;
+}

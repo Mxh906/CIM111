@@ -1,0 +1,73 @@
+<HTML>
+<head>
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <link rel="stylesheet" href="stylefin23.css"/>
+
+  <meta name="author" content="martin haberer"/>
+  <meta name="unnoficial website blog(educational purpose)" content="punta del este vacation folder"/>
+</head>
+
+<body>
+  <body bgcolor="azure">
+
+  <center>
+    <H1>
+      <h3 style="background-color:#c2b280"> <img width="3.5%" src="images/uruguay.png"/> <b> !Punta Del Este! </b> <img width="3.5%" src="images/uruguay.png"/> </h3>
+    </H1>
+
+    <text class="grid-container">
+      <h2> <Arial> Punta del Este, treated by South Americans as a prime destination for summer vacation since the early 1900s. The Uruguayan city has been greately developed and attracts tourists from all over the world, in the months of December and November. Punta del Este is a place of happiness, sun and good times. A place with beaches, sun and the best food that you can find. Somewhere to go with friends, family or honeymoon. </Arial> </h2>
+      <i> <center> Welcome to Paradise... </center> </i>
+    </text>
+
+    <H2>
+      <div class="grid-containerh">
+        <div class="grid-item"><img width="40%" src="images/punta1.jpg"/>   <h2>El Puerto</h2></div>
+        <div class="grid-item"><img width="45%" src="images/punta2.jpg"/>   <h2>Bikini Beach</h2></div>
+        <div class="grid-item"><img width="40%" src="images/punta3.jpg"/>   <h2>Los Dedos</h2></div>
+        <div class="grid-item"><img width="45%" src="images/punta4.jpg"/>   <h2>Solanas Beach</h2></div>
+
+      </div>
+    </H2>
+  </center>
+  <div onclick="$(this).switchOff()">
+    Top Picks!
+  </div>
+  <ul class="list">
+    <li><h2><b> Restaurants<b/>: La Huella, La Susana, Bagattele, La Pasiva</h2></li>
+    <li><h2><b> Beaches<b/>: Jose Ignacio, 30 de la Brava, Bikini Beach</h2></li>
+    <li><h2><b> Nightclubs<b/>: Tequila, Soho, Ovo</h2></li>
+    <li><h2><b> New Years Parties<b/>: Box, Jet-Bagattele, Pixel</h2></li>
+    <li><h2><b> Near Cities<b/>: Jose Ignacio(80km), Montevideo(200km), Buenos Aires(1000km)</h2></li>
+  </ul>
+  <div id="shake_demo" style="width:150px; height:40px; background:#c2b280; text-align:center;>
+    <a href="#" onclick="new Effect.Shake('shake_demo'); return false;" style="line-height:40px;">Shake for Information</a>
+  </div>
+  <ul class="list">
+	<li><a class="fancybox-media" href="https://www.google.com/search?q=secretaria+de+turismo+uruguay&oq=secretaria+de+turismo+uruguay&aqs=chrome..69i57j0l5.6444j1j7&sourceid=chrome&ie=UTF-8">Secretaria de Turismo</a></li>
+	<li><a class="fancybox-media" href="https://www.welcomeuruguay.com/puntadeleste/index_i.html">Ciudad de Punta del Este</a></li>
+  </ul>
+
+  <a class="fancybox" rel="gallery1" href="http://images.nymag.com/nymetro/travel/columns/travel/travel041101_400.jpg">
+  	<img width="30%" src="http://images.nymag.com/nymetro/travel/columns/travel/travel041101_400.jpg" alt="" />
+  </a>
+  <a class="fancybox" rel="gallery1" href="https://cdn.theculturetrip.com/wp-content/uploads/2017/10/7446135136_c59b8c869b_z.jpg" title="Electrical Power Lines and Pylons disappear over t.. (pautliubomir)">
+  	<img width="28%" src="https://cdn.theculturetrip.com/wp-content/uploads/2017/10/7446135136_c59b8c869b_z.jpg" alt="" />
+  </a>
+  <a class="fancybox" rel="gallery1" href="https://cdn.theculturetrip.com/wp-content/uploads/2018/03/32042320500_9bfc7a8626_k-750x500.jpg">
+  	<img width="355" src="https://cdn.theculturetrip.com/wp-content/uploads/2018/03/32042320500_9bfc7a8626_k-750x500.jpg" alt="" />
+  </a>
+
+  <div id="appear_demo" style="display:none; width:80px; height:80px; background:#c2defb; border:1px solid #333;"></div>
+    <a href="#" onclick="$('appear_demo').appear(h); return false;">Click here to Top!</a>
+
+    <a href="#" onclick="Effect.Fold('fold_demo'); return false;"><img id="fold_demo" width="28%" src="https://farm9.static.flickr.com/8240/8600427126_1d91d4011a_b.jpg" alt=""/>Click Image To Erase</a>
+
+</body>
+
+</html>
