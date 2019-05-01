@@ -1,0 +1,146 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background: azure;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: azure;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: azure;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: azure;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: azure;}
+
+}
+/* For mobile phones */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    body #grad1{
+      background: linear-gradient(to top right, #9933ff 0%, #66ccff 100%);
+      width: 4%;
+      padding: 4%;
+      color: white;
+      width: 1210px;
+      font-family: "Futura";
+      font-size: 1cm;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-column-gap: 30px;
+      grid-template-columns: auto auto;
+      background: linear-gradient(to top right, #9933ff 0%, #66ccff 100%);
+      padding: 10px;
+      width: 1250px;
+    }
+
+    .grid-container1 {
+      display: grid;
+      grid-column-gap: 20px;
+      grid-template-columns: auto auto auto auto;
+      background: linear-gradient(to top right, #9933ff 0%, #66ccff 100%);
+      padding: 10px;
+      width: 1250px;
+    }
+
+    .grid-container2 {
+      display: grid;
+      grid-column-gap: 20px;
+      grid-template-columns: auto;
+      background: linear-gradient(to top right, #9933ff 0%, #66ccff 100%);
+      padding: 10px;
+    }
+
+    .grid-item {
+      background: linear-gradient(to top right, #9933ff 0%, #66ccff 100%);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 0px;
+      font-size: 30px;
+      text-align: center;
+      font-family: "Futura";
+      color: white;
+    }
+
+    .grid-item1 {
+      background: linear-gradient(to top right, #9933ff 0%, #66ccff 100%);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      font-size: 20px;
+      text-align: left;
+      font-family: "Futura";
+      color: white;
+    }
+
+    .grid-item2 {
+      background: linear-gradient(to top right, #9933ff 0%, #66ccff 100%);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      font-size: 8px;
+      text-align: center;
+      font-family: "Futura";
+      color: ;
+    }
+
+    .alias {cursor: alias;}
+
+    .button {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0px 0px;
+        border: 0px solid #a12727;
+        border-radius: 52px;
+        background: #ff4a4a;
+        background: -webkit-gradient(linear, left top, left bottom, from(#ff4a4a), to(#992727));
+        background: -moz-linear-gradient(top, #ff4a4a, #992727);
+        background: linear-gradient(to bottom, #ff4a4a, #992727);
+        -webkit-box-shadow: #ff5959 0px 0px 40px 0px;
+        -moz-box-shadow: #ff5959 0px 0px 40px 0px;
+        box-shadow: #ff5959 0px 0px 40px 0px;
+        text-shadow: #591717 1px 1px 1px;
+        font: normal normal bold 3px arial;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .button:hover,
+    .button:focus {
+        background: #ff5959;
+        background: -webkit-gradient(linear, left top, left bottom, from(#ff5959), to(#b62f2f));
+        background: -moz-linear-gradient(top, #ff5959, #b62f2f);
+        background: linear-gradient(to bottom, #ff5959, #b62f2f);
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .button:active {
+        background: #982727;
+        background: -webkit-gradient(linear, left top, left bottom, from(#982727), to(#982727));
+        background: -moz-linear-gradient(top, #982727, #982727);
+        background: linear-gradient(to bottom, #982727, #982727);
+    }
+    .button:before{
+        content:  "\0000a0";
+        display: inline-block;
+        height: 24px;
+        width: 24px;
+        line-height: 24px;
+        margin: 0 4px -6px -4px;
+        position: relative;
+        top: -3px;
+        left: 4px;
+        background: url("data:image/png;base64,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") no-repeat left center transparent;
+        background-size: 100% 100%;
+    }
